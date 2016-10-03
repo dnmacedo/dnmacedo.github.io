@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+  font-family: Tahoma;
+}
+
+a {
+  text-decoration: none;
+}
+/*change the font of your unordered list (<ul>) to either
+Verdana or Tahoma, and remove the bullets.
+Remove the underlines and change the color of your links.*/
+
+/*Link your index.html document to your new portal.css document
+by following the instructions given in class.*/
