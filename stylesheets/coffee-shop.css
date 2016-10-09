@@ -1,7 +1,9 @@
 body {
   font-family: Arial, sans-serif;
   color: #dfdfdf;
-  background-color: #faf1e1;
+  background-image: url("http://wallpapersdsc.net/wp-content/uploads/2016/09/Coffee-Beans-Wallpaper.jpg");
+  background-size: contain;
+  opacity: 0.9;
 }
 
 section {
