@@ -1,15 +1,52 @@
-ul {
+body {
+
+  font-weight: 500;
+  width: 800px;
+  margin: auto;
+}
+
+nav {
+  font-family: 'Maven Pro', sans-serif;
+  float: left;
+  width:200px;
+
+}
+nav ul {
+
   list-style: none;
-  font-family: Tahoma;
+  margin-bottom: 60px;
+  padding-left: 0px;
+  margin-top:0px;
+}
+
+nav ul a {
+  display: block;
+
+  background-color: rgb(250, 255, 160);
+  color: rgb(155, 155, 55);
+
+  line-height: 60px;
+  height: 60px;
+
+  padding-left: 25px;
 }
 
 h6 {
-  font-family: Tahoma;
+  font-family: 'Abril Fatface', cursive;
 }
 
 a {
   text-decoration: none;
   color: grey;
+}
+
+footer {
+
+  float: right;
+}
+
+nav ul li a:hover {
+  background: rgb(250, 255, 130);
 }
 /*change the font of your unordered list (<ul>) to either
 Verdana or Tahoma, and remove the bullets.
