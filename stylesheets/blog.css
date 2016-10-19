@@ -75,6 +75,11 @@ h1 {
 	color: white;
 }
 
+h1 a {
+	font-family: 'Bungee Inline', cursive;
+	color: white;
+}
+
 header byline {
 	color: white;
 	font-variant: small-caps;
