@@ -56,6 +56,14 @@ body {
   background-attachment:fixed;
 }
 
+a {
+	font-family: sans-serif;
+	font-style: bold;
+	color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+
 header {
 	height: 200px;
 }
@@ -120,13 +128,7 @@ img {
     height: 250px;
 }
 
-a {
-	font-family: sans-serif;
-	font-style: bold;
-	color: white;
-  display: inline-block;
-  text-decoration: none;
-}
+
 
 ul li {
 	display: inline-block;
