@@ -67,6 +67,11 @@ h1 {
 	color: white;
 }
 
+h1 a {
+	font-family: 'Bungee Inline', cursive;
+	color: white;
+}
+
 header byline {
 	color: white;
 	font-variant: small-caps;
@@ -100,10 +105,16 @@ ul li {
 	position: relative;
 	top: 42px;
 	padding: 40px;
-  width: 250px;
+  width: 550px;
   height: 250px;
 }
 
+h2 {
+	font-size: 40px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+}
 img {
     width: 250px;
     height: 250px;
@@ -135,4 +146,12 @@ p {
 	line-height: normal;
   font-size: 18px;
 	color: white;
+}
+
+#coffeepost p {
+	padding-top: 20px;
+	left: 0px;
+	position: relative;
+	width: 600px;
+	text-align: left;
 }
