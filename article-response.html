@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+  <head>
+      <title>Dani's Blog</title>
+      <link href="stylesheets/blog-posts.css" rel="stylesheet">
+      <meta charset="utf-8">
+      <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <section class="wrapper">
+
+      <header>
+
+        <h1><a href="blog.html">My Interactive Journey</a></h1>
+        <byline>By Dani Macedo</byline>
+
+      </header>
+      <section class="index">
+        <nav>
+          <ul>
+            <li><a href="#">10.6.16</a></li>
+            <li><a href="#">10.8.16</a></li>
+            <li><a href="#">10.10.16</a></li>
+          </ul>
+        </nav>
+      </section>
+      
+        <section class="posts">
+
+
+            <h2>Response to Article</h2>
+            <p>I read the article A Redesign with CSS Shapes from the website
+              A list Apart. I learned that css recently came out with this new
+              concept of float shapes where you can make text float around any
+              type of polygon you wish. In this article, the author took on the
+              challenge of floating text around circles. One part I did not
+              understand is why there was a right-hand side margin for the image
+              element box. This affected the way the author had to center his
+              float shape so that it would be centered to the image and not
+              the entire element (including margin).
+            </p>
+
+            <p>I saw that he added a 20px buffer between the edge of the image
+              and where the text would go. But my question is why does the text
+              flow into the margin? Does the margin
+              become meaningless once a float shape is set in place?
+            </P>
+
+            <p>After reading on, the article answered my question, and
+              it was exactly what I was inquiring. “That’s the effect of
+              shape-outside. Areas of the margin outside that shape, and even
+              areas of the element’s content outside the shape, are available
+              for normal-flow content to flow into.” So this sums up that margins
+              don’t have the same effect here, but the shape must still be
+              recentered onto the image itself, so that, the margin does affect.
+              I also learned in this same section that the shape would get cut
+              off if it stepped outside the margin, so I realized here that it
+              still has function even
+              if one of the functions has been override by the shape.
+            </p>
+
+            <p>The next part he covered is adjusting the code so that text
+              wrap would still look nice near the shapes even when the viewport
+              is scaled down. Which brings me to another sort of inquiry I had.
+              He talks about using even and odd divs and giving them a margin.
+              I’m not exactly sure which divs he is referring to, like perhaps
+              the lines of text? My deduction is that the even div is the first
+              block of text and the odd is the second. That is why the text
+              wraps at a certain point underneath the bubble. I realize too
+              that he used percentages instead of a fixed measurement so that
+              these can adjust as the viewport is scaled up and down. Also,
+              making the
+              margin too wide would diminish the purpose of the float shape.
+            </p>
+
+            <p>I thought another cool thing he demonstrated is getting the
+              general result he wanted on his page, whether or not a browser
+              supported his float shape, all in 2 small blocks of code! So when
+              he puts @support, he gets to set his desired margins for the
+              text so that it wraps nicely with the shapes, and if a browser
+              doesn’t support the shape, it will just stop at the previous
+              lines of code with a standard 33% margin. I thought it was really
+              cool how he could make his code adapt to different browsers
+              like that.
+              It shows that he is educated and efficient.
+            </p>
+
+            <p>I think this was a very interesting topic that he went over and
+              it definitely inspires me to incorporate it in my own designs. It
+              seems like around every corner I learn something new about CSS and
+              it seems like the possibilities are endless!
+              I am loving these moments where code meets creativity.
+            </p>
+
+
+
+        </section>
+        <footer>
+                  <p><a href="mailto:dnmacedo@ucdavis.edu">Email me!</a></p>
+                  <p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fdnmacedo.github.io%2Fblog">W3C Validation</a></p>
+        </footer>
+
+    </section>
+  </body>
+
+</html>
