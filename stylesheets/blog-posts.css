@@ -50,7 +50,7 @@ table {
 
 /*Start structure styles*/
 .wrapper {
-  width: 1010px;
+  width: 1024px;
   margin:auto;
 }
 
@@ -67,12 +67,10 @@ table {
 /*setting the background image to be fixed, reference:
 https://css-tricks.com/perfect-full-page-background-image/*/
 body {
-/*	background:url(http://unrealitymag.com/wp-content/uploads/2011/09/TI9ZS.jpg);
-  background-size:cover;
-  background-position:center center;
-  background-attachment:fixed;
-	*/
-	background-color: lightblue;
+	background-image: url("../images/Blog-bkgd.jpg");
+	background-position:center center;
+	background-attachment:fixed;
+
 }
 
 a {
@@ -111,21 +109,24 @@ header byline {
 
 /*Begin body styles*/
 
-ul li {
-	margin-left: 100px;
-	margin-top: 20px;
-	padding-left: 100px;
+nav {
+	width: 1024px;
+	display: table;
+	margin: auto;
+  background-color: lightpink;
 }
+
+ul li {
+	display: table-cell;
+	width: 300px;
+	text-align: center;
+	padding: 15px;
+}
+
 
 .index {
 	height: 60px;
 }
-
-nav {
-  height: 60px;
-  background-color: lightpink;
-}
-
 
 img {
     width: 250px;
@@ -163,8 +164,9 @@ p {
 }
 
 footer {
-	clear:both;
-	position: relative;
+	clear: both;
+	width: 954px;
+	margin: 20px auto 0 auto;
 	padding: 35px;
 	background-color: rgba(255, 180, 180, .8);
 }
