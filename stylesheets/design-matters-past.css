@@ -122,9 +122,15 @@ nav li:hover {
 
 /*start article styling*/
 
+.article {
+	height: 9999px;
+	
+}
+
 .image {
-  margin: 0 230px 0 225px;
   padding: 30px;
+	width: 900px;
+	margin: 0 25px;
 }
 
 h2 {
@@ -135,14 +141,21 @@ h2 {
 
 p {
   font-size: 16px;
-  line-height: 20px;
+  line-height: 30px;
   font-family: verdana;
   padding: 25px;
 }
 
-#diagram {
-  width: 400px;
-  margin: 0 310px 0 310px;
+#pic1 {
+  width: 100px;
+  float: right;
+	padding: 25px;
+}
+
+#pic2 {
+  width: 100px;
+  float: left;
+	padding: 25px;
 }
 
 /*end atricle styling*/
