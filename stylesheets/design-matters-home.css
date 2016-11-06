@@ -1,6 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end css reset*/
 /*make the wrapper centered and mono-width*/
 
 .wrapper {
   width: 1024px;
-  margi
+  margin:auto;
+  background-color: lightyellow;
+}
+
+/*start header styles*/
+
+
+header {
+  background-image: url("../images/screen-print-banner.jpg");
+  height: 200px;
+}
+
+byline {
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/*end header styles*/
+
+/*start nav styles*/
+
+#squeegee {
+  width: 38px;
+  margin: 0;
+  float: right;
+
+}
+
+nav {
+  margin: auto;
+  width: 1024px;
+  background-color: rgb(50, 180, 50);
+}
+
+nav ul {
+  width: 1024px;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  width: 150px;
+  background-color: rgb(50, 180, 50);
+}
+
+nav li a {
+  width: 130px;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+  font-size: 18px;
+}
+
+nav li:hover {
+  background-color: rgb(50, 150, 50);
+}
+
+/*end of nav styles*/
+
+/*start article styling*/
+
+.image {
+  margin: 0 230px 0 225px;
+  padding: 30px;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: sans-serif;
+  padding-left: 25px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: verdana;
+  padding: 25px;
+}
+
+#diagram {
+  width: 400px;
+  margin: 0 310px 0 310px;
+}
+
+/*end atricle styling*/
+
+/*start footer styling*/
+
+footer {
+  background-image: url("../images/screen-print-footer.jpg");
+  height: 200px;
+}
+
+footer li {
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+
+footer li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: grey;
 }
