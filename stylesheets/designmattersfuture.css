@@ -123,7 +123,8 @@ nav li:hover {
 /*start article styling*/
 
 .article {
-	height: 999px;
+	height: auto;
+	margin-bottom: 50px;
 
 }
 
@@ -135,27 +136,21 @@ nav li:hover {
 h2 {
   font-size: 36px;
   font-family: sans-serif;
-  padding-left: 25px;
+  padding-left: 50px;
 }
 
 p {
   font-size: 16px;
   line-height: 30px;
   font-family: verdana;
-  padding: 25px;
+  padding: 25px 70px;
 }
 
-/*#pic1 {
-  width: 200px;
-  float: right;
-	padding: 25px;
+figcaption {
+	font-family: verdana;
+	font-size: 14px;
+	padding-top: 10px;
 }
-
-#pic2 {
-  width: 200px;
-  float: left;
-	padding: 25px;
-}*/
 
 /*end atricle styling*/
 
