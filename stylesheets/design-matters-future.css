@@ -129,7 +129,7 @@ nav li:hover {
 
 .image {
   padding: 30px;
-	margin: 0 25px;
+	margin: 0 50px;
 }
 
 h2 {
@@ -145,7 +145,7 @@ p {
   padding: 25px;
 }
 
-#pic1 {
+/*#pic1 {
   width: 200px;
   float: right;
 	padding: 25px;
@@ -155,7 +155,7 @@ p {
   width: 200px;
   float: left;
 	padding: 25px;
-}
+}*/
 
 /*end atricle styling*/
 

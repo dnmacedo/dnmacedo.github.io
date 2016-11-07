@@ -122,14 +122,9 @@ nav li:hover {
 
 /*start article styling*/
 
-.article {
-	height: 999px;
-
-}
-
 .image {
+  margin: 0 70px;
   padding: 30px;
-	margin: 0 25px;
 }
 
 h2 {
@@ -146,14 +141,8 @@ p {
 }
 
 #pic1 {
-  width: 200px;
+  width: 500px;
   float: right;
-	padding: 25px;
-}
-
-#pic2 {
-  width: 200px;
-  float: left;
 	padding: 25px;
 }
 
