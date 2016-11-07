@@ -123,7 +123,8 @@ nav li:hover {
 /*start article styling*/
 
 .article {
-	height: 999px;
+height: auto;
+margin-bottom: 50px;
 
 }
 
@@ -142,21 +143,59 @@ p {
   font-size: 16px;
   line-height: 30px;
   font-family: verdana;
-  padding: 25px;
+  padding: 25px 70px;
+	width: auto;
 }
 
 #pic1 {
-  width: 200px;
+	width: 200px;
   float: right;
-	padding: 25px;
+	padding: 25px 50px 25px 25px;
+}
+
+#ladies {
+	padding-bottom: 10px;
+}
+
+#book1 {
+	width: 100px;
+	padding: 10px 10px 10px 0;
+}
+
+#book2 {
+	width: 100px;
+	padding: 10px;
+}
+
+#books {
+	float: left;
+	width: 250px;
+	padding: 25px 25px 10px 50px;
 }
 
 #pic2 {
-  width: 200px;
   float: left;
-	padding: 25px;
+	width: 200px;
+	padding: 20px 25px 20px 50px;
 }
 
+#Marylin {
+	padding-bottom: 10px;
+}
+
+#pic3 {
+	padding: 20px 50px 20px 20px;
+	float: right;
+}
+
+#boats {
+	padding-bottom: 10px;
+}
+
+figcaption {
+	font-family: verdana;
+	font-size: 14px;
+}
 /*end atricle styling*/
 
 /*start footer styling*/
