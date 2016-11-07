@@ -72,6 +72,8 @@ byline {
 h1 {
   font-size: 70px;
   font-family: sans-serif;
+	font-weight: bold;
+	color: black;
   padding: 20px;
 }
 
