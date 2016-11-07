@@ -130,7 +130,7 @@ nav li:hover {
 
 .image {
   padding: 30px;
-	margin: 0 50px;
+	margin: 0 25px;
 }
 
 h2 {
@@ -144,6 +144,15 @@ p {
   line-height: 30px;
   font-family: verdana;
   padding: 25px 70px;
+}
+
+#stencil {
+	padding-bottom: 10px;
+}
+
+#pic1 {
+	float: right;
+	padding: 25px 50px;
 }
 
 figcaption {
