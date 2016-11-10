@@ -1,0 +1,56 @@
+header {
+  float: left;
+  width: 25%;
+  font-family: 'Corben', cursive;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  width: 70%;
+  height: 25%;
+  padding-top: 70px;
+  display: table;
+}
+
+nav ul li {
+  display: table-cell;
+  width: 25%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+body {
+  display: inline-block;
+  height: 100%;
+  margin: 5%;
+  background-image: url("../images/cc-bg.jpg");
+  background-size: 100%;
+}
+
+.info {
+  width: 40%;
+  height: 75%;
+  height: auto;
+  float: right;
+  margin-right: 30%;
+  margin-top: 20%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 4em;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
