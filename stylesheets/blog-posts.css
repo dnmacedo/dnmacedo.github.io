@@ -133,6 +133,11 @@ img {
     height: 250px;
 }
 
+#postimg {
+	height:auto;
+	width: 100%;
+}
+
 h2 {
     font-size: 40px;
     color: darkblue;
