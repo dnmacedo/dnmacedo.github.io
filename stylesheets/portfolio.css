@@ -47,3 +47,9 @@ table {
 }
 
 /*end css reset*/
+
+/*start body styles*/
+
+body {
+  background-image: url(../images/beach.jpg);
+}
