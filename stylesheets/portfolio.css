@@ -58,6 +58,11 @@ header {
 	height: 500px;
 }
 
+#largearrow {
+	position: absolute;
+	top: 175px;
+}
+
 #name {
 	width: 400px;
 	display: block;
