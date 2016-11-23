@@ -199,6 +199,10 @@ footer a:hover {
 		left: 370px;
 	}
 
+	nav li {
+		line-height: 25px;
+	}
+
 	.blurb {
 		left: 50px;
 		width: 360px;
