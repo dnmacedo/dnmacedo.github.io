@@ -182,7 +182,7 @@ footer a:hover {
   }
 
 	#largearrow {
-		left: -550px;
+		left: -600px;
 	}
 
   h1 {
@@ -190,13 +190,13 @@ footer a:hover {
     font-family: courier;
     position: absolute;
     top: 170px;
-    left: 350px;
+    left: 300px;
   }
 
 	nav {
 		position: absolute;
 		top: 220px;
-		left: 370px;
+		left: 320px;
 	}
 
 	.blurb {
