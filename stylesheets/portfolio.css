@@ -48,15 +48,70 @@ table {
 
 /*end css reset*/
 
-/*start body styles*/
+/*How the webpage should look on a desktop*/
 
-body {
-  background-image: url("../images/beach.jpg");
-}
+@media (max-width: 1500px) {
+  body {
+    background-image: url("../images/beach.jpg");
+    background-size: 1500px;
+  }
 
 /*start header styles*/
 
-h1 {
-  font-size: 24px;
-  font-family: courier;
+  .wrapper {
+    width: 1024px;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-family: courier;
+    position: absolute;
+    top: 170px;
+    left: 900px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  body {
+    background-image: url("../images/beach-tablet.jpg");
+    background-size: 800px;
+  }
+
+/*start header styles*/
+
+  .wrapper {
+    width: 1024px;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-family: courier;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  body {
+    background-image: url("../images/beach-mobile.jpg");
+    background-size: 400px;
+  }
+
+/*start header styles*/
+
+  .wrapper {
+    width: 1024px;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-family: courier;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+  }
+
 }
