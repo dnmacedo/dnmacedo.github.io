@@ -50,38 +50,30 @@ table {
 
 /*How the webpage should look on a desktop*/
 
-@media (max-width: 1500px) {
+@media (max-width: 1499px) {
   body {
     background-image: url("../images/beach.jpg");
     background-size: 1500px;
   }
 
-/*start header styles*/
-
-  .wrapper {
-    width: 1024px;
-  }
-
   h1 {
     font-size: 50px;
     font-family: courier;
+    color: white;
     position: absolute;
+    width: auto;
     top: 170px;
     left: 900px;
   }
 
 }
 
-@media (max-width: 800px) {
+/*How the webpage should look on a tablet*/
+
+@media (max-width: 799px) {
   body {
     background-image: url("../images/beach-tablet.jpg");
-    background-size: 800px;
-  }
-
-/*start header styles*/
-
-  .wrapper {
-    width: 1024px;
+    background-size: 770px 1024px;
   }
 
   h1 {
@@ -94,16 +86,12 @@ table {
 
 }
 
-@media (max-width: 400px) {
+/*How the webpage should look on a mobile phone*/
+
+@media (max-width: 399px) {
   body {
     background-image: url("../images/beach-mobile.jpg");
     background-size: 400px;
-  }
-
-/*start header styles*/
-
-  .wrapper {
-    width: 1024px;
   }
 
   h1 {
