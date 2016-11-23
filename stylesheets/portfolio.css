@@ -53,3 +53,10 @@ table {
 body {
   background-image: url("../images/beach.jpg");
 }
+
+/*start header styles*/
+
+h1 {
+  font-size: 24px;
+  font-family: courier;
+}
