@@ -82,11 +82,11 @@ h1 {
 
 /*start nav styles*/
 
-nav {
+#homenav {
 	width: 300px;
 }
 
-nav a {
+#homenav a {
 	text-decoration: none;
 	color: white;
 	font-family: courier;
@@ -100,10 +100,21 @@ nav a {
 	padding-right: 5px;
 }
 
-nav a:hover + #arrow {
+#homenav a:hover + #arrow {
 	display: block;
 }
 
+#smallnav {
+	width: 200px;
+}
+
+#smallnav a {
+	text-decoration: none;
+	color: white;
+	font-family: courier;
+	font-size: 18px;
+	font-weight: bold;
+}
 /*start paragraph styles*/
 
 p {
@@ -156,23 +167,40 @@ footer a:hover {
 /*How the webpage should look on a desktop*/
 
 @media (max-width: 1499px) {
-  body {
+  #homebody {
     background-image: url("../images/beach.jpg");
     background-size: 1500px;
 		background-repeat: no-repeat;
   }
 
-  h1 {
+	#interbody {
+		background-color: grey;
+	}
+
+ 	#homehead {
     position: absolute;
     width: auto;
     top: 170px;
     left: 900px;
   }
 
-	nav {
+	#interhead {
+		position: absolute;
+		width: auto;
+		top: 250px;
+		left: 100px;
+	}
+
+	#homenav {
 		position: absolute;
 		top: 220px;
 		left: 910px;
+	}
+
+	#smallnav {
+		position: absolute;
+		top: 120px;
+		left: 1010px;
 	}
 
 }
@@ -180,16 +208,20 @@ footer a:hover {
 /*How the webpage should look on a tablet*/
 
 @media (max-width: 799px) {
-  body {
+  #homebody {
     background-image: url("../images/beach-tablet.jpg");
     background-size: 770px 1024px;
   }
+
+	#interbody {
+		background-color: grey;
+	}
 
 	#largearrow {
 		left: -550px;
 	}
 
-  h1 {
+  #homehead {
     font-size: 50px;
     font-family: courier;
     position: absolute;
@@ -197,13 +229,13 @@ footer a:hover {
     left: 350px;
   }
 
-	nav {
+	#homenav {
 		position: absolute;
 		top: 220px;
 		left: 370px;
 	}
 
-	nav li {
+	#homenav li {
 		line-height: 25px;
 	}
 
@@ -216,22 +248,32 @@ footer a:hover {
 		padding: 50px;
 	}
 
+	#smallnav {
+		position: absolute;
+		top: 220px;
+		left: 910px;
+	}
+
 }
 
 /*How the webpage should look on a mobile phone*/
 
 @media (max-width: 415px) {
-  body {
+  #homebody {
     background-image: url("../images/beach-mobile.jpg");
     background-size: 415px;
   }
+
+	#interbody {
+		background-color: grey;
+	}
 
 	#largearrow {
 		top: 125px;
 		left: -820px;
 	}
 
-  h1 {
+  #homehead {
     font-size: 60px;
     font-family: courier;
     position: absolute;
@@ -239,13 +281,13 @@ footer a:hover {
     left: 90px;
   }
 
-	nav {
+	#homenav {
 		position: absolute;
 		top: 280px;
 		left: 100px;
 	}
 
-	nav li {
+	#homenav li {
 		line-height: 50px;
 	}
 
@@ -264,5 +306,9 @@ footer a:hover {
 		padding: 30px;
 	}
 
-
+	#smallnav {
+		position: absolute;
+		top: 220px;
+		left: 910px;
+	}
 }
