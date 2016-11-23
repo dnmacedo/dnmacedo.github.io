@@ -49,6 +49,11 @@ table {
 /*end css reset*/
 
 /*start wrapper styles*/
+
+body {
+	background-color: grey;
+}
+
 .wrapper {
 	height: 100%;
 }
@@ -154,7 +159,6 @@ footer a:hover {
   body {
     background-image: url("../images/beach.jpg");
     background-size: 1500px;
-		background-color: grey;
 		background-repeat: no-repeat;
   }
 
