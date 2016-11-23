@@ -181,13 +181,32 @@ footer a:hover {
     background-size: 770px 1024px;
   }
 
+	#largearrow {
+		left: -500px;
+	}
+
   h1 {
     font-size: 50px;
     font-family: courier;
     position: absolute;
-    top: 100px;
-    left: 300px;
+    top: 170px;
+    left: 400px;
   }
+
+	nav {
+		position: absolute;
+		top: 220px;
+		left: 420px;
+	}
+
+	.blurb {
+		left: 50px;
+		width: 360px;
+	}
+
+	footer li {
+		padding-top: 30px;
+	}
 
 }
 
@@ -199,12 +218,42 @@ footer a:hover {
     background-size: 400px;
   }
 
+	#largearrow {
+		top: 125px;
+		left: -820px;
+	}
+
   h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-family: courier;
     position: absolute;
-    top: 70px;
-    left: 100px;
+    top: 120px;
+    left: 90px;
   }
+
+	nav {
+		position: absolute;
+		top: 280px;
+		left: 100px;
+	}
+
+	nav li {
+		line-height: 50px;
+	}
+
+	.blurb {
+		left: 20px;
+		top: 800px;
+		width: 360px;
+	}
+
+	footer {
+		padding-top: 200px;
+	}
+	footer li {
+		align-items: center;
+		padding-top: 30px;
+	}
+
 
 }
