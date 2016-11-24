@@ -96,10 +96,8 @@ h1 {
 	font-weight: bold;
 }
 
-.arrow {
+.arrow img {
 	opacity: 0%
-	width: 10px;
-	padding-right: 5px;
 }
 
 #homenav a:hover + .arrow {
