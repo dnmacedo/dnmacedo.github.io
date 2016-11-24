@@ -97,13 +97,13 @@ h1 {
 }
 
 .arrow {
-	display: none;
-	width: 30px;
+	opacity: 0%
+	width: 10px;
 	padding-right: 5px;
 }
 
-#homenav a:hover + #arrow {
-	display: block;
+#homenav a:hover + .arrow {
+	opacity: 100%;
 }
 
 .smallnav {
