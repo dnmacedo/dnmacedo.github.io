@@ -96,7 +96,7 @@ h1 {
 	font-weight: bold;
 }
 
-#arrow {
+.arrow {
 	display: none;
 	width: 30px;
 	padding-right: 5px;
