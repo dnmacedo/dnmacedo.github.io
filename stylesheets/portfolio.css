@@ -96,8 +96,12 @@ h1 {
 	font-weight: bold;
 }
 
-.arrow img {
+.arrow {
 	opacity: 0%
+}
+
+ul li {
+		display: inline-block;
 }
 
 #homenav a:hover + .arrow {
