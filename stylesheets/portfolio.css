@@ -81,6 +81,14 @@ h1 {
 	color: white;
 }
 
+h2 {
+	font-size: 30px;
+	font-family: courier;
+	color: white;
+	padding: 10px;
+	padding-top: 80px;
+}
+
 /*start nav styles*/
 
 #homenav {
@@ -118,19 +126,20 @@ a .arrow {
 	color: white;
 	font-family: courier;
 	font-size: 18px;
-	font-weight: bold;
+
 }
 /*start paragraph styles*/
 
 p {
 	color: white;
 	font-family: courier;
-	font-size: 14px;
-	line-height: 15px;
+	font-size: 16px;
+	line-height: 17px;
 	position: relative;
 	padding: 10px;
 }
 
+/*styling the block of text on my homepage*/
 .blurb {
 	position: absolute;
 	width: 400px;
@@ -138,10 +147,29 @@ p {
 	left:100px;
 }
 
+
+/*styling the text in my content pages*/
+.content {
+	position: absolute;
+	display: inline-block;
+	width: 1024px;
+	top: 325px;
+	left: 90px;
+}
+
+.content p {
+	max-width: 800px;
+	padding-bottom: 50px;
+}
+
+.content a {
+	display: inline-block;
+	float: right;
+}
 /*start footer styles*/
 
 figure {
-	position: absolute;
+	float: right;
 	bottom: -50px;
 }
 
@@ -154,7 +182,8 @@ figure a {
 }
 
 footer {
-	position: relative;
+	clear: both;
+	display: inline-block;
 	top: 500px;
 	padding-top: 50px;
 	width: 100%;
@@ -188,7 +217,7 @@ footer a:hover {
 
 	.wrapper {
 		width: 1200px;
-		margin: 0;
+		margin: auto;
 	}
 
   #homebody {
@@ -233,17 +262,17 @@ footer a:hover {
 		left: 1010px;
 	}
 
-		#smallnavgroup {
-			position: absolute;
-			top: 110px;
-			left: 1010px;
-		}
+	#smallnavgroup {
+		position: absolute;
+		top: 110px;
+		left: 1010px;
+	}
 
-		#smallnavflow {
-			position: absolute;
-			top: 85px;
-			left: 1010px;
-		}
+	#smallnavflow {
+		position: absolute;
+		top: 85px;
+		left: 1010px;
+	}
 
 	#smallnavart {
 		position: absolute;
@@ -255,6 +284,23 @@ footer a:hover {
 		position: absolute;
 		top: 32px;
 		left: 1010px;
+	}
+
+	.post {
+		padding-bottom: 200px;
+	}
+
+	.content #img1 {
+		width: 400px;
+		float: right;
+		padding-left: 30px;
+	}
+
+	.content #img2 {
+		width: 400px;
+		position: relative;
+		top:-150px;
+		padding-left: 30px;
 	}
 
 }
