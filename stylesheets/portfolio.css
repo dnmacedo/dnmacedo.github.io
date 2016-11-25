@@ -167,6 +167,7 @@ p {
 	width: 1024px;
 	top: 100px;
 	left: 90px;
+	margin: 0;
 }
 
 .content p {
@@ -182,9 +183,11 @@ p {
 /*start footer styles*/
 
 figure {
-	display: block;
-	float: right;
+	position: fixed;
+	bottom: 20px;
+	right: 80px;
 	width: 10px;
+	height: auto;
 }
 
 figure a {
@@ -198,8 +201,7 @@ figure a {
 footer {
 	position: relative;
 	display: block;
-	margin: 0 auto;
-	padding-top: 50px;
+	margin: 50px auto 0 auto;
 	width: 1200px;
 	height: 100px;
 }
@@ -214,7 +216,7 @@ footer a {
 
 footer li {
 	float: right;
-	padding-right: 100px;
+	padding: 50px 100px 50px 50px;
 	color: white;
 	font-family: courier;
 	font-size: 15px;
@@ -251,10 +253,8 @@ footer a:hover {
   }
 
 	#interhead {
-		position: absolute;
+		position: relative;
 		width: auto;
-		top: 250px;
-		left: 100px;
 	}
 
 	#homenav {
@@ -300,12 +300,12 @@ footer a:hover {
 	}
 
 	.post {
-		display: block;
+		display: inline-block;
 	}
 
 	.content #img1, .content #img2, .content #img3 {
 		width: 400px;
-		display: block;
+		display: inline-block;
 		margin: auto;
 		float: right;
 		padding: 50px 0;
@@ -313,8 +313,8 @@ footer a:hover {
 	}
 
 	.video {
-		width: 1024px;
-		margin: 0 100px;
+		width: 1200px;
+		text-align: center;
 		height: auto;
 	}
 
