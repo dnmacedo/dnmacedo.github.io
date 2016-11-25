@@ -48,6 +48,11 @@ table {
 
 /*end css reset*/
 
+.wrapper {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
 /*start body styles*/
 
 body {
@@ -56,7 +61,8 @@ body {
 
 /*start header styles*/
 header {
-	height: 500px;
+	height: 200px;
+	display: block;
 }
 
 #largearrow {
@@ -151,7 +157,7 @@ p {
 /*styling the text in my content pages*/
 .content {
 	position: absolute;
-	display: inline-block;
+	display: block;
 	width: 1024px;
 	top: 325px;
 	left: 90px;
@@ -169,6 +175,7 @@ p {
 /*start footer styles*/
 
 figure {
+	display: block;
 	float: right;
 	bottom: -50px;
 }
@@ -182,9 +189,8 @@ figure a {
 }
 
 footer {
-	clear: both;
-	display: inline-block;
-	top: 500px;
+	display: block;
+	bottom: 0;
 	padding-top: 50px;
 	width: 100%;
 	height: 100px;
@@ -214,11 +220,6 @@ footer a:hover {
 /*How the webpage should look on a desktop*/
 
 @media (max-width: 1499px) {
-
-	.wrapper {
-		width: 1200px;
-		margin: auto;
-	}
 
   #homebody {
     background-image: url("../images/beach.jpg");
