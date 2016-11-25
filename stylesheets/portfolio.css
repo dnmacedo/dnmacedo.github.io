@@ -186,8 +186,7 @@ figure {
 	position: fixed;
 	bottom: 20px;
 	right: 80px;
-	width: 10px;
-	height: auto;
+	width: auto;
 }
 
 figure a {
@@ -196,6 +195,10 @@ figure a {
 	font-family: courier;
 	font-size: 20px;
 	font-weight: bold;
+}
+
+figure img {
+	width: 30px;
 }
 
 footer {
