@@ -152,9 +152,10 @@ p {
 
 /*styling the block of text on my homepage*/
 .blurb {
-	position: absolute;
+	position: relative;
+	display: block;
 	width: 400px;
-	top: 400px;
+	top: 200px;
 	left:100px;
 }
 
@@ -177,6 +178,7 @@ p {
 	display: inline-block;
 	float: right;
 }
+
 /*start footer styles*/
 
 figure {
@@ -198,7 +200,7 @@ footer {
 	display: block;
 	bottom: 0;
 	padding-top: 50px;
-	width: 100%;
+	width: 1200px;
 	height: 100px;
 }
 
@@ -298,20 +300,14 @@ footer a:hover {
 	}
 
 	.post {
-		padding-bottom: 200px;
+		display: inline-block;
 	}
 
-	.content #img1 {
+	.content #img1, .content #img2, .content #img3 {
 		width: 400px;
 		float: right;
-		padding-left: 30px;
-	}
-
-	.content #img2 {
-		width: 400px;
-		position: relative;
-		top:-150px;
-		padding-left: 30px;
+		padding: 50px 0;
+		padding-left: 50px;
 	}
 
 }
