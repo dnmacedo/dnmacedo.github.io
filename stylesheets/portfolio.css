@@ -72,14 +72,13 @@ header {
 
 #name {
 	width: 400px;
-	display: block;
+	height: 50px;
 }
 
 h1 {
 	font-size: 50px;
 	font-family: courier;
 	color: white;
-	width: 500px;
 }
 
 /*start nav styles*/
@@ -96,16 +95,15 @@ h1 {
 	font-weight: bold;
 }
 
-.arrow {
-	opacity: 0%
+a .arrow {
+	opacity: 0;
+	display: inline-block;
 }
 
-ul li {
-		display: inline-block;
-}
-
-#homenav a:hover + .arrow {
+#homenav a:hover +.arrow {
 	opacity: 100%;
+	position: relative;
+	right: 5px;
 }
 
 .smallnav {
@@ -143,8 +141,8 @@ p {
 /*start footer styles*/
 
 figure {
-	float: right;
-	bottom: -550px;
+	position: absolute;
+	bottom: -50px;
 }
 
 figure a {
