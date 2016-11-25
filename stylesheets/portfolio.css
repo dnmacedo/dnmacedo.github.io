@@ -300,14 +300,22 @@ footer a:hover {
 	}
 
 	.post {
-		display: inline-block;
+		display: block;
 	}
 
 	.content #img1, .content #img2, .content #img3 {
 		width: 400px;
+		display: block;
+		margin: auto;
 		float: right;
 		padding: 50px 0;
 		padding-left: 50px;
+	}
+
+	.video {
+		width: 1024px;
+		margin: 0 100px;
+		height: auto;
 	}
 
 }
