@@ -49,8 +49,7 @@ table {
 /*end css reset*/
 
 .wrapper {
-	width: 100%;
-	height: auto;
+	margin: auto;
 	position: relative;
 }
 /*start body styles*/
@@ -227,6 +226,10 @@ footer a:hover {
 /*How the webpage should look on a desktop*/
 
 @media (max-width: 1499px) {
+
+	.wrapper {
+		width: 1300px;
+	}
 
   #homebody {
     background-image: url("../images/beach.jpg");
