@@ -89,20 +89,21 @@ h1 {
 }
 
 h2 {
+	display: inline-block;
 	font-size: 30px;
 	font-family: courier;
 	color: white;
-	padding: 10px;
-	padding-top: 80px;
+	padding-top: 50px;
+	height: 50px;
 }
 
 /*start nav styles*/
 
-#homenav {
+.homenav {
 	width: 300px;
 }
 
-#homenav a {
+.homenav a {
 	text-decoration: none;
 	color: white;
 	font-family: courier;
@@ -119,7 +120,7 @@ a .arrow {
 	display: inline-block;
 }
 
-#homenav a:hover +.arrow {
+.homenav a:hover +.arrow {
 	opacity: 100%;
 	position: relative;
 	right: 5px;
@@ -173,11 +174,20 @@ p {
 .content p {
 	max-width: 800px;
 	padding-bottom: 50px;
+	display: block;
 }
 
 .content a {
 	display: inline-block;
+}
+
+.content #web a {
+	display: inline-block;
 	float: right;
+}
+
+#flow #img1, #flow #img2, #flow #img3, #flow #img4 {
+	padding: 0 100px 50px 100px;
 }
 
 /*start footer styles*/
@@ -238,29 +248,50 @@ footer a:hover {
 		width: 1300px;
 	}
 
-  #homebody {
+  .homebody {
     background-image: url("../images/beach.jpg");
     background-size: 1500px;
 		background-repeat: no-repeat;
   }
 
-	#interbody {
+	.interbody {
 		background-color: grey;
 	}
 
- 	#homehead {
+ 	.homehead {
     position: absolute;
     width: auto;
     top: 170px;
     left: 900px;
   }
 
-	#interhead {
+	.interhead {
 		position: relative;
 		width: auto;
 	}
 
-	#homenav {
+	#maizme #img1 {
+		text-align: center;
+		float: none;
+		margin: auto;
+	}
+
+	#maizme #img4 {
+		padding-left: 50px;
+	}
+
+	#maizme a {
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+		display: inline-block;
+	}
+
+	#maizme a:hover {
+		text-decoration: underline;
+	}
+
+	.homenav {
 		position: absolute;
 		top: 220px;
 		left: 910px;
@@ -306,16 +337,18 @@ footer a:hover {
 		display: inline-block;
 	}
 
-	.content #img1, .content #img2, .content #img3 {
-		width: 400px;
-		display: inline-block;
+	#img1, #img2, #img3, #img4, #img5, #img6, #img7 {
+		display: block;
 		margin: auto;
 		float: right;
 		padding: 50px 0;
 		padding-left: 50px;
 	}
 
+
 	.video {
+		display: inline-block;
+		margin: auto;
 		width: 1200px;
 		text-align: center;
 		height: auto;
