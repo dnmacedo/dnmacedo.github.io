@@ -48,197 +48,6 @@ table {
 
 /*end css reset*/
 
-.wrapper {
-	margin: auto;
-	position: relative;
-}
-/*start body styles*/
-
-body {
-	background-color: grey;
-}
-
-/*start header styles*/
-header {
-	height: 200px;
-	display: block;
-}
-
-#largearrow {
-	position: absolute;
-	top: 175px;
-	width: 900px;
-}
-
-#largearrow2 {
-		position: absolute;
-		top: 175px;
-		left: -100px;
-		width: 1100px;
-	}
-
-#name {
-	width: 400px;
-	height: 50px;
-}
-
-h1 {
-	font-size: 50px;
-	font-family: courier;
-	color: white;
-}
-
-h2 {
-	display: inline-block;
-	font-size: 30px;
-	font-family: courier;
-	color: white;
-	padding-top: 50px;
-	height: 50px;
-}
-
-/*start nav styles*/
-
-.homenav {
-	width: 300px;
-}
-
-.homenav a {
-	text-decoration: none;
-	color: white;
-	font-family: courier;
-	font-size: 24px;
-	font-weight: bold;
-}
-
-.arrow {
-	width: 30px;
-}
-
-a .arrow {
-	opacity: 0;
-	display: inline-block;
-}
-
-.homenav a:hover +.arrow {
-	opacity: 100%;
-	position: relative;
-	right: 5px;
-}
-
-.smallnav {
-	width: 200px;
-}
-
-.smallnav li {
-	line-height: 25px;
-}
-.smallnav a {
-	text-decoration: none;
-	color: white;
-	font-family: courier;
-	font-size: 18px;
-
-}
-/*start paragraph styles*/
-
-p {
-	color: white;
-	font-family: courier;
-	font-size: 16px;
-	line-height: 17px;
-	position: relative;
-	padding: 10px;
-}
-
-/*styling the block of text on my homepage*/
-.blurb {
-	position: relative;
-	display: block;
-	width: 400px;
-	top: 200px;
-	left:100px;
-}
-
-
-/*styling the text in my content pages*/
-.content {
-	position: relative;
-	display: block;
-	width: 1024px;
-	top: 100px;
-	left: 90px;
-	margin: 0;
-}
-
-.content p {
-	max-width: 800px;
-	padding-bottom: 50px;
-	display: block;
-}
-
-.content a {
-	display: inline-block;
-}
-
-.content #web a {
-	display: inline-block;
-	float: right;
-}
-
-#flow #img1, #flow #img2, #flow #img3, #flow #img4 {
-	padding: 0 100px 50px 100px;
-}
-
-/*start footer styles*/
-
-figure {
-	position: fixed;
-	bottom: 20px;
-	right: 80px;
-	width: auto;
-}
-
-figure a {
-	text-decoration: none;
-	color: white;
-	font-family: courier;
-	font-size: 20px;
-	font-weight: bold;
-}
-
-figure img {
-	width: 30px;
-}
-
-footer {
-	position: relative;
-	display: block;
-	margin: 50px auto 0 auto;
-	width: 1200px;
-	height: 100px;
-}
-
-footer a {
-	text-decoration: none;
-	color: white;
-	font-family: courier;
-	font-size: 20px;
-	font-weight: bold;
-}
-
-footer li {
-	float: right;
-	padding: 50px 100px 50px 50px;
-	color: white;
-	font-family: courier;
-	font-size: 15px;
-	font-weight: bold;
-}
-
-footer a:hover {
-	text-decoration: underline;
-}
 
 /*How the webpage should look on a desktop*/
 
@@ -246,6 +55,14 @@ footer a:hover {
 
 	.wrapper {
 		width: 1300px;
+		margin: auto;
+		position: relative;
+	}
+
+	/*start body styles*/
+
+	body {
+		background-color: grey;
 	}
 
   .homebody {
@@ -258,6 +75,12 @@ footer a:hover {
 		background-color: grey;
 	}
 
+	/*start header styles*/
+	header {
+		height: 200px;
+		display: block;
+	}
+
  	.homehead {
     position: absolute;
     width: auto;
@@ -265,19 +88,184 @@ footer a:hover {
     left: 900px;
   }
 
+	#name {
+		width: 400px;
+		height: 50px;
+	}
+
+		h1 {
+			font-size: 50px;
+			font-family: courier;
+			color: white;
+		}
+
+	#largearrow {
+		position: absolute;
+		top: 175px;
+		width: 900px;
+	}
+
 	.interhead {
 		position: relative;
 		width: auto;
 	}
 
-	#maizme #img1 {
-		text-align: center;
-		float: none;
-		margin: auto;
+	#largearrow2 {
+			position: absolute;
+			top: 175px;
+			left: -100px;
+			width: 1100px;
+		}
+
+	h2 {
+		display: inline-block;
+		font-size: 30px;
+		font-family: courier;
+		color: white;
+		padding-top: 50px;
+		height: 50px;
 	}
 
-	#maizme #img4 {
-		padding-left: 50px;
+	/*End header styles*/
+
+	/*start nav styles*/
+
+	.homenav {
+		width: 300px;
+		position: absolute;
+		top: 220px;
+		left: 910px;
+	}
+
+	.homenav a {
+		text-decoration: none;
+		color: white;
+		font-family: courier;
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+	/*vv arrow that appears next to the home nav links vv*/
+	.arrow {
+		width: 30px;
+	}
+
+	a .arrow {
+		opacity: 0;
+		display: inline-block;
+	}
+
+	.homenav a:hover +.arrow {
+		opacity: 100%;
+		position: relative;
+		right: 5px;
+	}
+
+/*vv nav for the internal pages vv*/
+	.smallnav {
+		width: 200px;
+	}
+
+	.smallnav li {
+		line-height: 25px;
+	}
+	.smallnav a {
+		text-decoration: none;
+		color: white;
+		font-family: courier;
+		font-size: 18px;
+
+	}
+
+	/*start individual nav styles to make the nav move next to the arrow*/
+		#smallnavweb {
+			position: absolute;
+			top: 163px;
+			left: 1010px;
+		}
+
+		#smallnavmaiz {
+			position: absolute;
+			top: 138px;
+			left: 1010px;
+		}
+
+		#smallnavgroup {
+			position: absolute;
+			top: 110px;
+			left: 1010px;
+		}
+
+		#smallnavflow {
+			position: absolute;
+			top: 85px;
+			left: 1010px;
+		}
+
+		#smallnavart {
+			position: absolute;
+			top: 60px;
+			left: 1010px;
+		}
+
+		#smallnavtyp {
+			position: absolute;
+			top: 32px;
+			left: 1010px;
+		}
+	/*end individual nav styles*/
+
+/*End all nav styles*/
+
+/*start content styles*/
+
+	p {
+		color: white;
+		font-family: courier;
+		font-size: 16px;
+		line-height: 17px;
+		position: relative;
+		padding: 10px;
+	}
+
+	/*styling the block of text on my homepage*/
+	.blurb {
+		position: relative;
+		display: block;
+		width: 400px;
+		top: 200px;
+		left:100px;
+	}
+
+
+	/*styling the text in my content pages*/
+
+	.post {
+		display: inline-block;
+	}
+
+	.content {
+		position: relative;
+		display: block;
+		width: 1024px;
+		top: 100px;
+		left: 90px;
+		margin: 0;
+	}
+
+	.content p {
+		max-width: 800px;
+		padding-bottom: 50px;
+		display: block;
+	}
+
+	.content a {
+		display: inline-block;
+	}
+
+	.content #web a {
+		display: inline-block;
+		float: right;
 	}
 
 	#maizme a {
@@ -291,52 +279,7 @@ footer a:hover {
 		text-decoration: underline;
 	}
 
-	.homenav {
-		position: absolute;
-		top: 220px;
-		left: 910px;
-	}
-
-	#smallnavweb {
-		position: absolute;
-		top: 163px;
-		left: 1010px;
-	}
-
-	#smallnavmaiz {
-		position: absolute;
-		top: 138px;
-		left: 1010px;
-	}
-
-	#smallnavgroup {
-		position: absolute;
-		top: 110px;
-		left: 1010px;
-	}
-
-	#smallnavflow {
-		position: absolute;
-		top: 85px;
-		left: 1010px;
-	}
-
-	#smallnavart {
-		position: absolute;
-		top: 60px;
-		left: 1010px;
-	}
-
-	#smallnavtyp {
-		position: absolute;
-		top: 32px;
-		left: 1010px;
-	}
-
-	.post {
-		display: inline-block;
-	}
-
+	/*start image styles on internal pages*/
 	#img1, #img2, #img3, #img4, #img5, #img6, #img7 {
 		display: block;
 		margin: auto;
@@ -345,6 +288,19 @@ footer a:hover {
 		padding-left: 50px;
 	}
 
+	#flow #img1, #flow #img2, #flow #img3, #flow #img4 {
+		padding: 0 100px 50px 100px;
+	}
+
+	#maizme #img1 {
+		text-align: center;
+		float: none;
+		margin: auto;
+	}
+
+	#maizme #img4 {
+		padding-left: 50px;
+	}
 
 	.video {
 		display: inline-block;
@@ -353,6 +309,63 @@ footer a:hover {
 		text-align: center;
 		height: auto;
 	}
+
+	/*end image styles for internal pages*/
+
+	/*end content styling*/
+
+	/*start footer styles*/
+
+	/*back to top arrow styles*/
+	figure {
+		position: fixed;
+		bottom: 20px;
+		right: 80px;
+		width: auto;
+	}
+
+	figure a {
+		text-decoration: none;
+		color: white;
+		font-family: courier;
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	figure img {
+		width: 30px;
+	}
+
+	footer {
+		position: relative;
+		display: block;
+		margin: 50px auto 0 auto;
+		width: 1200px;
+		height: 100px;
+	}
+
+	footer a {
+		text-decoration: none;
+		color: white;
+		font-family: courier;
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	footer li {
+		float: right;
+		padding: 50px 100px 50px 50px;
+		color: white;
+		font-family: courier;
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	footer a:hover {
+		text-decoration: underline;
+	}
+
+/*end footer styles*/
 
 }
 
@@ -365,20 +378,21 @@ footer a:hover {
 		margin: 0 auto;
 	}
 
-  #homebody {
+  .homebody {
     background-image: url("../images/beach-tablet.jpg");
-    background-size: 770px 1024px;
+    background-size: 770px;
   }
 
-	#interbody {
+	.interbody {
 		background-color: grey;
+		background-size: 770px 1024px;
 	}
 
 	#largearrow {
 		left: -550px;
 	}
 
-  #homehead {
+  .homehead {
     font-size: 50px;
     font-family: courier;
     position: absolute;
@@ -386,13 +400,13 @@ footer a:hover {
     left: 350px;
   }
 
-	#homenav {
+	.homenav {
 		position: absolute;
 		top: 220px;
 		left: 370px;
 	}
 
-	#homenav li {
+	.homenav li {
 		line-height: 25px;
 	}
 
@@ -401,11 +415,19 @@ footer a:hover {
 		width: 360px;
 	}
 
+	footer {
+		position: relative;
+		display: block;
+		margin: 50px auto 0 auto;
+		width: 100%;
+		height: 100px;
+	}
+
 	footer li {
 		padding: 50px;
 	}
 
-	#smallnav {
+	.smallnav {
 		position: absolute;
 		top: 220px;
 		left: 910px;
@@ -422,12 +444,12 @@ footer a:hover {
 		margin: 0 auto;
 	}
 
-  #homebody {
+  .homebody {
     background-image: url("../images/beach-mobile.jpg");
     background-size: 415px;
   }
 
-	#interbody {
+	.interbody {
 		background-color: grey;
 	}
 
@@ -436,7 +458,7 @@ footer a:hover {
 		left: -820px;
 	}
 
-  #homehead {
+  .homehead {
     font-size: 60px;
     font-family: courier;
     position: absolute;
@@ -444,13 +466,13 @@ footer a:hover {
     left: 90px;
   }
 
-	#homenav {
+	.homenav {
 		position: absolute;
 		top: 280px;
 		left: 100px;
 	}
 
-	#homenav li {
+	.homenav li {
 		line-height: 50px;
 	}
 
@@ -469,7 +491,7 @@ footer a:hover {
 		padding: 30px;
 	}
 
-	#smallnav {
+	.smallnav {
 		position: absolute;
 		top: 220px;
 		left: 910px;
