@@ -53,17 +53,18 @@ table {
 
 @media (max-width: 1499px) {
 
-	.wrapper {
+	body {
+		background-color: darkgrey;
+	}
+
+	.wrapper2 {
 		width: 1300px;
 		margin: auto;
 		position: relative;
+		background-color: grey;
 	}
 
 	/*start body styles*/
-
-	body {
-		background-color: grey;
-	}
 
   .homebody {
     background-image: url("../images/beach.jpg");
@@ -71,9 +72,6 @@ table {
 		background-repeat: no-repeat;
   }
 
-	.interbody {
-		background-color: grey;
-	}
 
 	/*start header styles*/
 	header {
@@ -83,20 +81,16 @@ table {
 
  	.homehead {
     position: absolute;
-    width: auto;
+    width: 400px;
+		height: auto;
     top: 170px;
     left: 900px;
   }
 
-	#name {
-		width: 400px;
-		height: 50px;
-	}
-
-		h1 {
-			font-size: 50px;
-			font-family: courier;
-			color: white;
+	h1 {
+		font-size: 50px;
+		font-family: courier;
+		color: white;
 		}
 
 	#largearrow {
@@ -108,22 +102,24 @@ table {
 	.interhead {
 		position: relative;
 		width: auto;
+		padding: 20px 0 0 40px;
 	}
 
 	#largearrow2 {
 			position: absolute;
-			top: 175px;
-			left: -100px;
-			width: 1100px;
+			top: 200px;
+			right: 250px;
+			width: 1050px;
+			height: 60px;
 		}
 
 	h2 {
 		display: inline-block;
+		max-width: 500px;
 		font-size: 30px;
 		font-family: courier;
 		color: white;
-		padding-top: 50px;
-		height: 50px;
+		height: auto;
 	}
 
 	/*End header styles*/
@@ -180,38 +176,38 @@ table {
 	/*start individual nav styles to make the nav move next to the arrow*/
 		#smallnavweb {
 			position: absolute;
-			top: 163px;
-			left: 1010px;
+			top: 188px;
+			right: 50px;
 		}
 
 		#smallnavmaiz {
 			position: absolute;
-			top: 138px;
-			left: 1010px;
+			top: 163px;
+			right: 50px;
 		}
 
 		#smallnavgroup {
 			position: absolute;
-			top: 110px;
-			left: 1010px;
+			top: 135px;
+			right: 50px;
 		}
 
 		#smallnavflow {
 			position: absolute;
-			top: 85px;
-			left: 1010px;
+			top: 115px;
+			right: 50px;
 		}
 
 		#smallnavart {
 			position: absolute;
-			top: 60px;
-			left: 1010px;
+			top: 85px;
+			right: 50px;
 		}
 
 		#smallnavtyp {
 			position: absolute;
-			top: 32px;
-			left: 1010px;
+			top: 57px;
+			right: 50px;
 		}
 	/*end individual nav styles*/
 
@@ -219,13 +215,26 @@ table {
 
 /*start content styles*/
 
+	a {
+		text-decoration: none;
+		color: white;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
 	p {
 		color: white;
 		font-family: courier;
 		font-size: 16px;
 		line-height: 17px;
 		position: relative;
-		padding: 10px;
+		padding: 20px 20px 20px 40px;
+	}
+
+	.headerp {
+		max-width: 800px
 	}
 
 	/*styling the block of text on my homepage*/
@@ -237,26 +246,42 @@ table {
 		left:100px;
 	}
 
+	.blurb p {
+		padding: 10px;
+		width: 500px;
+	}
+
 
 	/*styling the text in my content pages*/
 
-	.post {
-		display: inline-block;
-	}
+
 
 	.content {
 		position: relative;
 		display: block;
-		width: 1024px;
+		width: 1000px;
 		top: 100px;
-		left: 90px;
+		left: 50px;
 		margin: 0;
 	}
 
+	.post {
+		display: inline-block;
+		max-width: 1000px;
+		position: relative;
+		padding: 50px 0;
+	}
+
 	.content p {
-		max-width: 800px;
-		padding-bottom: 50px;
+		padding-left: 0;
+		max-width: 400px;
 		display: block;
+	}
+
+	#takeaction {
+		column-count: 2;
+		column-gap: 40px;
+		max-width: 1000px;
 	}
 
 	.content a {
@@ -264,7 +289,7 @@ table {
 	}
 
 	.content #web a {
-		display: inline-block;
+		display: block;
 		float: right;
 	}
 
@@ -275,38 +300,42 @@ table {
 		display: inline-block;
 	}
 
-	#maizme a:hover {
-		text-decoration: underline;
-	}
 
 	/*start image styles on internal pages*/
 	#img1, #img2, #img3, #img4, #img5, #img6, #img7 {
-		display: block;
-		margin: auto;
-		float: right;
-		padding: 50px 0;
-		padding-left: 50px;
+		display: inline-block;
+		position: relative;
+		margin: 0;
 	}
 
 	#flow #img1, #flow #img2, #flow #img3, #flow #img4 {
-		padding: 0 100px 50px 100px;
+		float: right;
+		padding: 30px 0 30px 30px;
+	}
+
+	#flow #img5, #flow #img6, #flow #img7 {
+		padding: 0 25px;
 	}
 
 	#maizme #img1 {
 		text-align: center;
 		float: none;
-		margin: auto;
+		margin: 0;
 	}
 
 	#maizme #img4 {
 		padding-left: 50px;
 	}
 
+	#type #img1, {
+		display: inline-block;
+		padding: 0 10px;
+	}
+
 	.video {
 		display: inline-block;
-		margin: auto;
+		margin: 0 120px;
 		width: 1200px;
-		text-align: center;
 		height: auto;
 	}
 
@@ -320,8 +349,9 @@ table {
 	figure {
 		position: fixed;
 		bottom: 20px;
-		right: 80px;
+		right: 50px;
 		width: auto;
+		padding: 20px;
 	}
 
 	figure a {
