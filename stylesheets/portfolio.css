@@ -53,12 +53,12 @@ table {
 
 	body {
 		background-color: darkgrey;
+		background-size: cover;
 	}
 
 	.wrapper2 {
-		width: 1300px;
-		margin: auto;
-		position: relative;
+		max-width: 1300px;
+		margin: 0 auto;
 		background-color: grey;
 	}
 
@@ -66,13 +66,17 @@ table {
 
   .homebody {
     background-image: url("../images/beach.jpg");
-    background-size: 1500px;
+    background-size: cover;
 		background-repeat: no-repeat;
   }
 
+	.interbody {
+		height: auto;
+	}
 
 	/*start header styles*/
 	header {
+		position: relative;
 		height: 200px;
 		display: block;
 	}
@@ -126,9 +130,8 @@ table {
 
 	.homenav {
 		width: 300px;
-		position: absolute;
+		float: right;
 		top: 220px;
-		left: 910px;
 	}
 
 	.homenav a {
@@ -227,11 +230,11 @@ table {
 		font-family: courier;
 		font-size: 16px;
 		line-height: 17px;
-		position: relative;
 		padding: 20px 20px 20px 40px;
 	}
 
 	.headerp {
+		position: relative;
 		max-width: 800px
 	}
 
@@ -258,9 +261,7 @@ table {
 		position: relative;
 		display: block;
 		width: 1000px;
-		top: 100px;
-		left: 50px;
-		margin: 0;
+		margin: 50px 20px;
 	}
 
 	.post {
@@ -345,7 +346,7 @@ table {
 
 	/*back to top arrow styles*/
 	figure {
-		position: fixed;
+		position: absolute;
 		bottom: 20px;
 		right: 50px;
 		width: auto;
@@ -368,8 +369,8 @@ table {
 		position: relative;
 		display: block;
 		margin: 50px auto 0 auto;
-		width: 1200px;
 		height: 100px;
+		padding-right: 50px;
 	}
 
 	footer a {
