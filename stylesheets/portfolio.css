@@ -51,8 +51,6 @@ table {
 
 /*How the webpage should look on a desktop*/
 
-@media (max-width: 1499px) {
-
 	body {
 		background-color: darkgrey;
 	}
@@ -397,7 +395,6 @@ table {
 
 /*end footer styles*/
 
-}
 
 /*How the webpage should look on a tablet*/
 
