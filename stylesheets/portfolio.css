@@ -264,8 +264,15 @@ table {
 		margin: 50px 20px;
 	}
 
+	.table {
+		display: table;
+	}
+
+	.cell {
+		display: table-cell;
+	}
+
 	.post {
-		display: inline-block;
 		max-width: 1000px;
 		position: relative;
 		padding: 50px 0;
@@ -275,12 +282,6 @@ table {
 		padding-left: 0;
 		max-width: 400px;
 		display: block;
-	}
-
-	#takeaction {
-		column-count: 2;
-		column-gap: 40px;
-		max-width: 1000px;
 	}
 
 	.content a {
@@ -302,7 +303,6 @@ table {
 
 	/*start image styles on internal pages*/
 	#img1, #img2, #img3, #img4, #img5, #img6, #img7 {
-		display: inline-block;
 		position: relative;
 		margin: 0;
 	}
