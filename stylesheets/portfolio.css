@@ -317,8 +317,12 @@ table {
 
 	.typeimg img {
 		display: inline-block;
-		width: 430px;
+		width: 420px;
 		padding: 50px 10px;
+	}
+
+	.typeimg #img1, .typeimg #img2, .typeimg #img3, .typeimg #img4, {
+		width: 300px;
 	}
 
 	.typepost p {
