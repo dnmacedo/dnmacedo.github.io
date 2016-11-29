@@ -57,36 +57,35 @@ table {
 	}
 
 	.wrapper2 {
-		max-width: 1300px;
+		max-width: 1024px;
 		margin: 0 auto;
 		background-color: grey;
 	}
 
 	/*start body styles*/
 
-  .homebody {
+  .wrapper1 {
     background-image: url("../images/beach.jpg");
     background-size: cover;
 		background-repeat: no-repeat;
   }
 
-	.interbody {
-		height: auto;
-	}
-
 	/*start header styles*/
 	header {
 		position: relative;
-		height: 200px;
+		width: 100%;
+		height: 400px;
 		display: block;
 	}
 
  	.homehead {
-    position: absolute;
+
     width: 400px;
 		height: auto;
     top: 170px;
-    left: 900px;
+    position: absolute;
+		right: 50px;
+
   }
 
 	h1 {
@@ -97,8 +96,10 @@ table {
 
 	#largearrow {
 		position: absolute;
-		top: 175px;
-		width: 900px;
+		top: 170px;
+		right:460px;
+		width: 1500px;
+		height: auto;
 	}
 
 	.interhead {
@@ -109,10 +110,10 @@ table {
 
 	#largearrow2 {
 			position: absolute;
-			top: 200px;
-			right: 250px;
-			width: 1050px;
-			height: 60px;
+			top: 220px;
+			right: 260px;
+			width: 760px;
+			height: auto;
 		}
 
 	h2 {
@@ -130,8 +131,9 @@ table {
 
 	.homenav {
 		width: 300px;
-		float: right;
+		position: absolute;
 		top: 220px;
+		right: 150px;
 	}
 
 	.homenav a {
@@ -177,19 +179,19 @@ table {
 	/*start individual nav styles to make the nav move next to the arrow*/
 		#smallnavweb {
 			position: absolute;
-			top: 188px;
+			top: 195px;
 			right: 50px;
 		}
 
 		#smallnavmaiz {
 			position: absolute;
-			top: 163px;
+			top: 167px;
 			right: 50px;
 		}
 
 		#smallnavgroup {
 			position: absolute;
-			top: 135px;
+			top: 140px;
 			right: 50px;
 		}
 
@@ -201,13 +203,13 @@ table {
 
 		#smallnavart {
 			position: absolute;
-			top: 85px;
+			top: 87px;
 			right: 50px;
 		}
 
 		#smallnavtyp {
 			position: absolute;
-			top: 57px;
+			top: 60px;
 			right: 50px;
 		}
 	/*end individual nav styles*/
@@ -235,16 +237,15 @@ table {
 
 	.headerp {
 		position: relative;
-		max-width: 800px
+		max-width: 700px
 	}
 
 	/*styling the block of text on my homepage*/
 	.blurb {
 		position: relative;
 		display: block;
-		width: 400px;
-		top: 200px;
-		left:100px;
+		width: 1000px;
+		padding: 100px;
 	}
 
 	.blurb p {
@@ -368,9 +369,8 @@ table {
 	footer {
 		position: relative;
 		display: block;
-		margin: 50px auto 0 auto;
 		height: 100px;
-		padding-right: 50px;
+
 	}
 
 	footer a {
@@ -383,7 +383,7 @@ table {
 
 	footer li {
 		float: right;
-		padding: 50px 100px 50px 50px;
+		padding: 50px 150px 50px 0;
 		color: white;
 		font-family: courier;
 		font-size: 15px;
