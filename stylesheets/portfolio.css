@@ -75,7 +75,6 @@ table {
 		position: relative;
 		width: 100%;
 		height: 400px;
-		display: block;
 	}
 
  	.homehead {
@@ -117,12 +116,12 @@ table {
 		}
 
 	h2 {
-		display: inline-block;
 		max-width: 500px;
 		font-size: 30px;
 		font-family: courier;
 		color: white;
 		height: auto;
+		position: relative;
 	}
 
 	/*End header styles*/
@@ -147,17 +146,12 @@ table {
 	/*vv arrow that appears next to the home nav links vv*/
 	.arrow {
 		width: 30px;
-	}
-
-	a .arrow {
-		opacity: 0;
+		visibility: hidden;
 		display: inline-block;
 	}
 
-	.homenav a:hover +.arrow {
-		opacity: 100%;
-		position: relative;
-		right: 5px;
+	.arrow:hover {
+		visibility: visible;
 	}
 
 /*vv nav for the internal pages vv*/
@@ -232,12 +226,12 @@ table {
 		font-family: courier;
 		font-size: 16px;
 		line-height: 17px;
-		padding: 20px 20px 20px 40px;
 	}
 
 	.headerp {
 		position: relative;
-		max-width: 700px
+		padding: 10px 40px;
+		max-width: 670px
 	}
 
 	/*styling the block of text on my homepage*/
@@ -256,87 +250,73 @@ table {
 
 	/*styling the text in my content pages*/
 
-
-
 	.content {
 		position: relative;
 		display: block;
 		width: 1000px;
-		margin: 50px 20px;
+		margin: 0 20px;
+		padding: 0 20px;
 	}
 
 	.table {
-		display: table;
-	}
-
-	.cell {
-		display: table-cell;
-	}
-
-	.post {
 		max-width: 1000px;
 		position: relative;
-		padding: 50px 0;
-	}
-
-	.content p {
-		padding-left: 0;
-		max-width: 400px;
-		display: block;
-	}
-
-	.content a {
+		padding: 30px;
 		display: inline-block;
 	}
 
-	.content #web a {
-		display: block;
+	.table #imglink, .table img {
+		display: inline-block;
 		float: right;
+		padding: 20px;
 	}
 
-	#maizme a {
-		text-decoration: none;
+	.post {
+		display: inline-block;
+		position: relative;
+		padding: 20px 20px 20px 0;
+		top:0;
+	}
+
+	.post p {
+		max-width: 400px;
+		padding: 10px 0;
+		display: block;
+		margin: 0;
+	}
+
+	#takeaction p {
+		display: inline-block;
+	}
+
+	.maizpost a {
 		color: white;
 		font-weight: bold;
 		display: inline-block;
 	}
 
-
-	/*start image styles on internal pages*/
-	#img1, #img2, #img3, #img4, #img5, #img6, #img7 {
-		position: relative;
-		margin: 0;
+	.maizpost p {
+		column-count: 2;
+		column-gap: 40px;
+		max-width: 900px;
 	}
 
-	#flow #img1, #flow #img2, #flow #img3, #flow #img4 {
-		float: right;
-		padding: 30px 0 30px 30px;
-	}
-
-	#flow #img5, #flow #img6, #flow #img7 {
-		padding: 0 25px;
-	}
-
-	#maizme #img1 {
+	.maizmeimg img {
+		padding: 0 30px;
 		text-align: center;
+	}
+
+	.maizmeimg #img1, .maizmeimg #img4 {
 		float: none;
-		margin: 0;
-	}
-
-	#maizme #img4 {
-		padding-left: 50px;
-	}
-
-	#type #img1, {
-		display: inline-block;
-		padding: 0 10px;
+		margin: auto;
 	}
 
 	.video {
-		display: inline-block;
+		display: block;
 		margin: 0 120px;
 		width: 1200px;
 		height: auto;
+
 	}
 
 	/*end image styles for internal pages*/
