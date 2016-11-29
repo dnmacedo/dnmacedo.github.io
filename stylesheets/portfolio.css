@@ -261,14 +261,15 @@ table {
 	.table {
 		max-width: 1000px;
 		position: relative;
-		padding: 30px;
+		padding: 10px;
 		display: inline-block;
 	}
 
 	.table #imglink, .table img {
 		display: inline-block;
 		float: right;
-		padding: 20px;
+		padding: 5px;
+		padding-bottom: 50px;
 	}
 
 	.post {
@@ -309,6 +310,18 @@ table {
 	.maizmeimg #img1, .maizmeimg #img4 {
 		float: none;
 		margin: auto;
+	}
+
+	.typeimg img {
+		display: inline-block;
+		width: 430px;
+		padding: 50px 10px;
+	}
+
+	.typepost p {
+		column-count: 2;
+		column-gap: 40px;
+		max-width: 900px;
 	}
 
 	.video {
