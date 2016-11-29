@@ -52,7 +52,7 @@ table {
 /*How the webpage should look on a desktop*/
 
 	body {
-		background-color: darkgrey;
+		background-color: rgb(100, 100, 100);
 		background-size: cover;
 	}
 
@@ -185,31 +185,31 @@ table {
 
 		#smallnavmaiz {
 			position: absolute;
-			top: 167px;
+			top: 170px;
 			right: 50px;
 		}
 
 		#smallnavgroup {
 			position: absolute;
-			top: 140px;
+			top: 145px;
 			right: 50px;
 		}
 
 		#smallnavflow {
 			position: absolute;
-			top: 115px;
+			top: 120px;
 			right: 50px;
 		}
 
 		#smallnavart {
 			position: absolute;
-			top: 87px;
+			top: 93px;
 			right: 50px;
 		}
 
 		#smallnavtyp {
 			position: absolute;
-			top: 60px;
+			top: 65px;
 			right: 50px;
 		}
 	/*end individual nav styles*/
