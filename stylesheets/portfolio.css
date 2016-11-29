@@ -268,7 +268,6 @@ table {
 	.table #imglink, .table img {
 		display: inline-block;
 		float: right;
-		padding: 5px;
 		padding-bottom: 50px;
 	}
 
@@ -288,6 +287,10 @@ table {
 
 	#takeaction p {
 		display: inline-block;
+	}
+
+	#flow .table img {
+		padding: 0 20px;
 	}
 
 	.maizpost a {
