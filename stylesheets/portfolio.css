@@ -253,7 +253,7 @@ table {
 	.content {
 		position: relative;
 		display: block;
-		width: 1000px;
+		max-width: 1000px;
 		margin: 0 20px;
 		padding: 0 20px;
 	}
@@ -293,6 +293,10 @@ table {
 		padding: 0 20px;
 	}
 
+	.flowimg {
+		display: inline-block;
+	}
+
 	.maizpost a {
 		color: white;
 		font-weight: bold;
@@ -300,17 +304,20 @@ table {
 	}
 
 	.maizpost p {
-		column-count: 2;
-		column-gap: 40px;
-		max-width: 900px;
+		display: inline-block;
+		max-width: 400px;
+		float: left;
+		padding-right: 25px;
 	}
 
-	.maizmeimg img {
-		padding: 0 30px;
+	.maizmeimg #img3, .maizmeimg #img4 {
+		padding: 30px 30px;
+		display: inline-block;
 		text-align: center;
+		max-width: 400px;
 	}
 
-	.maizmeimg #img1, .maizmeimg #img4 {
+	.maizmeimg #img1, .maizmeimg #img5 {
 		float: none;
 		margin: auto;
 	}
@@ -401,65 +408,361 @@ table {
 
 @media (max-width: 799px) {
 
-	.wrapper {
-		width: 800px;
-		margin: 0 auto;
-	}
 
-  .homebody {
-    background-image: url("../images/beach-tablet.jpg");
-    background-size: 770px;
-  }
+		body {
+			background-color: rgb(100, 100, 100);
+			background-size: cover;
+		}
 
-	.interbody {
-		background-color: grey;
-		background-size: 770px 1024px;
-	}
+		.wrapper2 {
+			margin: 0 auto;
+			background-color: grey;
+			max-width: 800px;
+		}
 
-	#largearrow {
-		left: -550px;
-	}
+		/*start body styles*/
 
-  .homehead {
-    font-size: 50px;
-    font-family: courier;
-    position: absolute;
-    top: 170px;
-    left: 350px;
-  }
+	  .wrapper1 {
+	    background-image: url("../images/beach.jpg");
+	    background-size: cover;
+			background-repeat: no-repeat;
+	  }
 
-	.homenav {
-		position: absolute;
-		top: 220px;
-		left: 370px;
-	}
+		/*start header styles*/
+		header {
+			position: relative;
+			width: 100%;
+			height: 400px;
+		}
 
-	.homenav li {
-		line-height: 25px;
-	}
+	 	.homehead {
 
-	.blurb {
-		left: 50px;
-		width: 360px;
-	}
+	    width: 400px;
+			height: auto;
+	    top: 170px;
+	    position: absolute;
+			right: 20px;
 
-	footer {
-		position: relative;
-		display: block;
-		margin: 50px auto 0 auto;
-		width: 100%;
-		height: 100px;
-	}
+	  }
 
-	footer li {
-		padding: 50px;
-	}
+		h1 {
+			font-size: 50px;
+			font-family: courier;
+			color: white;
+			}
 
-	.smallnav {
-		position: absolute;
-		top: 220px;
-		left: 910px;
-	}
+		#largearrow {
+			position: absolute;
+			top: 170px;
+			right:430px;
+			width: 1500px;
+			height: auto;
+		}
+
+		.interhead {
+			position: relative;
+			width: auto;
+			padding: 20px 0 0 40px;
+		}
+
+		#largearrow2 {
+				position: absolute;
+				top: 270px;
+				right: 230px;
+				width: 760px;
+				height: auto;
+			}
+
+		h2 {
+			max-width: 500px;
+			font-size: 30px;
+			font-family: courier;
+			color: white;
+			height: auto;
+			position: relative;
+		}
+
+		/*End header styles*/
+
+		/*start nav styles*/
+
+		.homenav {
+			width: 300px;
+			position: absolute;
+			top: 220px;
+			right: 120px;
+		}
+
+		.homenav a {
+			text-decoration: none;
+			color: white;
+			font-family: courier;
+			font-size: 24px;
+			font-weight: bold;
+		}
+
+		/*vv arrow that appears next to the home nav links vv*/
+		.arrow {
+			width: 30px;
+			visibility: hidden;
+			display: inline-block;
+		}
+
+		.arrow:hover {
+			visibility: visible;
+		}
+
+	/*vv nav for the internal pages vv*/
+		.smallnav {
+			width: 200px;
+		}
+
+		.smallnav li {
+			line-height: 25px;
+		}
+		.smallnav a {
+			text-decoration: none;
+			color: white;
+			font-family: courier;
+			font-size: 18px;
+
+		}
+
+		/*start individual nav styles to make the nav move next to the arrow*/
+			#smallnavweb {
+				position: absolute;
+				top: 245px;
+				right: 20px;
+			}
+
+			#smallnavmaiz {
+				position: absolute;
+				top: 220px;
+				right: 20px;
+			}
+
+			#smallnavgroup {
+				position: absolute;
+				top: 195px;
+				right: 20px;
+			}
+
+			#smallnavflow {
+				position: absolute;
+				top: 170px;
+				right: 20px;
+			}
+
+			#smallnavart {
+				position: absolute;
+				top: 143px;
+				right: 20px;
+			}
+
+			#smallnavtyp {
+				position: absolute;
+				top: 115px;
+				right: 20px;
+			}
+		/*end individual nav styles*/
+
+	/*End all nav styles*/
+
+	/*start content styles*/
+
+		a {
+			text-decoration: none;
+			color: white;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		p {
+			color: white;
+			font-family: courier;
+			font-size: 16px;
+			line-height: 17px;
+		}
+
+		.headerp {
+			position: relative;
+			padding: 10px 40px;
+			max-width: 470px
+		}
+
+		/*styling the block of text on my homepage*/
+		.blurb {
+			position: relative;
+			display: block;
+			width: 500px;
+			padding: 100px;
+		}
+
+		.blurb p {
+			padding: 10px;
+			width: 500px;
+		}
+
+
+		/*styling the text in my content pages*/
+
+		.content {
+			position: relative;
+			display: block;
+			max-width: 760px;
+			margin: 20px;
+			padding: 0 20px;
+		}
+
+		.table {
+			max-width: 750px;
+			position: relative;
+			top: 20px;
+			display: inline-block;
+		}
+
+		.table #imglink, .table img {
+			display: block;
+			padding: 25px;
+			float: none;
+			margin: auto;
+			width: 90%;
+		}
+
+		.post {
+			display: block;
+			position: relative;
+		}
+
+		.post p {
+			max-width: 600px;
+			display: inline-block;
+		}
+
+		.flowimg img {
+			padding: 20px;
+			max-width: 250px;
+			display: inline-block;
+		}
+
+		.flowimg {
+			max-width: 700px;
+		}
+
+		#web p {
+			display: inline-block;
+			padding-right: 20px;
+		}
+
+		.maizpost a {
+			color: white;
+			font-weight: bold;
+			display: inline-block;
+		}
+
+		.maizpost p {
+			max-width: 600px;
+		}
+
+		#maizme img {
+			float: left;
+			display: block;
+			max-width: 700px;
+			padding: 25px 0;
+		}
+
+		.maizmeimg #img3, .maizmeimg #img4 {
+			padding: 20px 0;
+			max-width: 700px;
+		}
+
+		.maizmeimg #img1, .maizmeimg #img5 {
+			float: left;
+		}
+
+		#type img {
+			display: block;
+			max-width: 700px;
+			float: left;
+			padding: 50px 10px;
+		}
+
+		.typepost p {
+			max-width: 900px;
+		}
+
+		#group img {
+			float: left;
+			max-width: 700px;
+			padding: 0;
+		}
+
+		.video {
+			display: block;
+			margin: 20px;
+			width: 700px;
+			height: auto;
+
+		}
+
+		/*end image styles for internal pages*/
+
+		/*end content styling*/
+
+		/*start footer styles*/
+
+		/*back to top arrow styles*/
+		figure {
+			position: absolute;
+			bottom: 20px;
+			right: 50px;
+			width: auto;
+			padding: 20px;
+		}
+
+		figure a {
+			text-decoration: none;
+			color: white;
+			font-family: courier;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		figure img {
+			width: 30px;
+		}
+
+		footer {
+			position: relative;
+			display: block;
+			height: 100px;
+			padding-top: 20px;
+		}
+
+		footer a {
+			text-decoration: none;
+			color: white;
+			font-family: courier;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		footer li {
+			float: right;
+			padding: 50px 150px 50px 0;
+			color: white;
+			font-family: courier;
+			font-size: 15px;
+			font-weight: bold;
+		}
+
+		footer a:hover {
+			text-decoration: underline;
+		}
+
+	/*end footer styles*/
 
 }
 
