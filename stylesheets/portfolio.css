@@ -778,14 +778,8 @@ table {
 
 @media (max-width: 415px) {
 
-		body {
-			background-color: rgb(100, 100, 100);
-			background-size: cover;
-		}
 
 		.wrapper2 {
-			margin: 0 auto;
-			background-color: grey;
 			max-width: 415px;
 		}
 
@@ -794,7 +788,6 @@ table {
 		.wrapper1 {
 			background-image: url("../images/beach-mobile.jpg");
 			background-size: contain;
-			background-repeat: no-repeat;
 		}
 
 		/*start header styles*/
@@ -858,7 +851,7 @@ table {
 			}
 
 		h2 {
-			max-width: 500px;
+			max-width: 400px;
 			font-size: 30px;
 			font-family: courier;
 			color: white;
@@ -944,7 +937,7 @@ table {
 		.blurb p {
 			padding: 10px;
 			height: auto;
-			width: 380px;
+			width: auto;
 		}
 
 
