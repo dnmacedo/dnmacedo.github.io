@@ -328,7 +328,6 @@ table {
 		padding: 30px 30px;
 		display: inline-block;
 		text-align: center;
-		max-width: 400px;
 	}
 
 	.maizmeimg #img1, .maizmeimg #img5 {
@@ -338,12 +337,7 @@ table {
 
 	.typeimg img {
 		display: inline-block;
-		width: 420px;
 		padding: 50px 10px;
-	}
-
-	.typeimg #img1, .typeimg #img2, .typeimg #img3, .typeimg #img4, {
-		width: 300px;
 	}
 
 	.typepost p {
