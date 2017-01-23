@@ -340,6 +340,11 @@ table {
 		padding: 50px 10px;
 	}
 
+	#type #img5, #type #img6, #type #img7 {
+		display: inline-block;
+		padding: 50px 10px;
+	}
+
 	.typepost p {
 		column-count: 2;
 		column-gap: 40px;
